@@ -21,6 +21,7 @@ const technologies = [
   { name: "MongoDB", img: "/mongodb.jpg" },
   { name: "Deployment", img: "/depl.jpg" },
   { name: "Aptitude & English", img: "/apti.jpg" },
+  {name:"React" , img:"/react1.jpg"},
 ];
 
 // Articles section

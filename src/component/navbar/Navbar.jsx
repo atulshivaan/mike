@@ -31,7 +31,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-full left-0 w-full bg-[#0B1D2F] flex flex-col items-center space-y-4 py-4 md:hidden z-10">
+        <div className="absolute top-full left-0 w-full text-black flex flex-col items-center space-y-4 py-4 md:hidden z-10">
           <Link to="/about" onClick={() => setMenuOpen(false)} className="hover:text-cyan-400">About Us</Link>
           <Link to="/services" onClick={() => setMenuOpen(false)} className="hover:text-cyan-400">Services</Link>
           <Link to="/reviews" onClick={() => setMenuOpen(false)} className="hover:text-cyan-400">Reviews</Link>
